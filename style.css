@@ -25,7 +25,8 @@ main{
 .user{
     width: 200px;
     height: 80px;
-    background-image: ;
+    background-image: url(img/windows_xp_bliss-wide1.jpg);
+    background-size: cover;
     border: 1px black solid;
     padding: 5px;
 }
@@ -62,6 +63,11 @@ footer{
     cursor: pointer;
     flex-grow: 1;
 }
+
+.fa-share-square{
+    color: green;
+}
+
 
 .center{
     padding: 30px;
